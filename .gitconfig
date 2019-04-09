@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Alex Burkowsky
+	email = aburkowsky9@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Alex Burkowsky
+#	email = alexburkowsky@Alex-Burkowskys-Mac.local
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
